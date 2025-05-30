@@ -72,7 +72,7 @@ async def remove_duplicates_button(update: Update, context: ContextTypes.DEFAULT
 
 # اجرای ربات
 if __name__ == '__main__':
-    TOKEN = "8143882098:AAGiDsdMeFLnzKK0WjF4Vrh2V1y8XFVBr8o"
+    TOKEN = "7747293223:AAHw64Ezta_MMr80HiOvemqInLBFuUPcK3I"
     app = ApplicationBuilder().token(TOKEN).build()
 
     app.add_handler(CommandHandler("start", start))
